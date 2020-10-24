@@ -9,10 +9,10 @@ pip install -r requirements.txt
 
 2.Clone this repository
 -
-cd detector/YOLOv3/weight/
-wget https://pjreddie.com/media/files/yolov3.weights
-wget https://pjreddie.com/media/files/yolov3-tiny.weights
-cd ../../../
+    cd detector/YOLOv3/weight/
+    wget https://pjreddie.com/media/files/yolov3.weights
+    wget https://pjreddie.com/media/files/yolov3-tiny.weights
+    cd ../../../
 
 3.Download YOLOv3 parameters
 -
