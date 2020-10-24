@@ -16,27 +16,27 @@ pip install -r requirements.txt
 
 3.Download YOLOv3 parameters
 -
-cd deep_sort/deep/checkpoint
+    cd deep_sort/deep/checkpoint
 # download ckpt.t7 from
-https://drive.google.com/drive/folders/1xhG0kRH1EX5B9_Iz8gQJb7UNnn_riXi6 to this folder
-cd ../../../
+    https://drive.google.com/drive/folders/1xhG0kRH1EX5B9_Iz8gQJb7UNnn_riXi6 to this folder
+    cd ../../../
 
 4.Download deepsort parameters ckpt.t7
 -
-cd deep_sort/deep/checkpoint
-# download ckpt.t7 from
-https://drive.google.com/drive/folders/1xhG0kRH1EX5B9_Iz8gQJb7UNnn_riXi6 to this folder
-cd ../../../
+    cd deep_sort/deep/checkpoint
+    # download ckpt.t7 from
+    https://drive.google.com/drive/folders/1xhG0kRH1EX5B9_Iz8gQJb7UNnn_riXi6 to this folder
+    cd ../../../
 
 5.Compile nms module
 -
-cd detector/YOLOv3/nms
-sh build.sh
-cd ../../..
+    cd detector/YOLOv3/nms
+    sh build.sh
+    cd ../../..
 
 6.Run demo
 -
-usage: python yolov3_deepsort.py RGB_VIDEO_PATH DEPTH_VIDEO_PATH
+    usage: python yolov3_deepsort.py RGB_VIDEO_PATH DEPTH_VIDEO_PATH
                                 [--help]
                                 [--frame_interval FRAME_INTERVAL]
                                 [--config_detection CONFIG_DETECTION]
