@@ -34,9 +34,13 @@ pip install -r requirements.txt
     sh build.sh
     cd ../../..
 
-6.Run demo
+6.create face database file(db.npz)
 -
-    usage: python yolov3_deepsort.py RGB_VIDEO_PATH DEPTH_VIDEO_PATH
+    python face_database.py 
+
+7.Run demo
+-
+    usage: python yolov3_deepsort.py RGB_VIDEO_PATH DEPTH_VIDEO_PATH FACE_DATA_PATH
                                 [--help]
                                 [--frame_interval FRAME_INTERVAL]
                                 [--config_detection CONFIG_DETECTION]
