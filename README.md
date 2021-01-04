@@ -33,8 +33,13 @@ pip install -r requirements.txt
     cd detector/YOLOv3/nms
     sh build.sh
     cd ../../..
-
-6.Run demo
+    
+6.Create Face recognition database(db.npz)
+-
+    pip install face_recognition
+    usage: face_database.py(dont't forget to change face database path in the python file)
+    
+7.Run demo
 -
     usage: python yolov3_deepsort.py RGB_VIDEO_PATH DEPTH_VIDEO_PATH
                                 [--help]
