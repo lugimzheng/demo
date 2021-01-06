@@ -41,7 +41,7 @@ pip install -r requirements.txt
     
 7.Run demo
 -
-    usage: python yolov3_deepsort.py RGB_VIDEO_PATH DEPTH_VIDEO_PATH
+    usage: python yolov3_deepsort.py RGB_VIDEO_PATH DEPTH_VIDEO_PATH FACE_DATA_PATH
                                 [--help]
                                 [--frame_interval FRAME_INTERVAL]
                                 [--config_detection CONFIG_DETECTION]
