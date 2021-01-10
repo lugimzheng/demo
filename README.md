@@ -52,7 +52,7 @@ pip install -r requirements.txt
                                 [--display_height DISPLAY_HEIGHT]
                                 [--save_path SAVE_PATH]          
                                 [--cpu]   
-     (for RGB video)                         
+    (for RGB video)                         
     usage: python yolov3_deepsort_rgb.py RGB_VIDEO_PATH FACE_DATA_PATH
                                 [--help]
                                 [--frame_interval FRAME_INTERVAL]
@@ -63,4 +63,7 @@ pip install -r requirements.txt
                                 [--display_height DISPLAY_HEIGHT]
                                 [--save_path SAVE_PATH]          
                                 [--cpu]   
+Test Demo
+-
+    You will find more details in industry_test.ipynb
 
