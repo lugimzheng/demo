@@ -41,6 +41,7 @@ pip install -r requirements.txt
     
 7.Run demo
 -
+    (for RGB-D video)
     usage: python yolov3_deepsort.py RGB_VIDEO_PATH DEPTH_VIDEO_PATH FACE_DATA_PATH
                                 [--help]
                                 [--frame_interval FRAME_INTERVAL]
@@ -50,5 +51,16 @@ pip install -r requirements.txt
                                 [--display_width DISPLAY_WIDTH]
                                 [--display_height DISPLAY_HEIGHT]
                                 [--save_path SAVE_PATH]          
-                                [--cpu]      
+                                [--cpu]   
+     (for RGB video)                         
+    usage: python yolov3_deepsort_rgb.py RGB_VIDEO_PATH FACE_DATA_PATH
+                                [--help]
+                                [--frame_interval FRAME_INTERVAL]
+                                [--config_detection CONFIG_DETECTION]
+                                [--config_deepsort CONFIG_DEEPSORT]
+                                [--display]
+                                [--display_width DISPLAY_WIDTH]
+                                [--display_height DISPLAY_HEIGHT]
+                                [--save_path SAVE_PATH]          
+                                [--cpu]   
 
